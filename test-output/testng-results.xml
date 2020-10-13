@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68326" started-at="2020-10-13T11:22:09Z" finished-at="2020-10-13T11:23:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68326" started-at="2020-10-13T11:22:09Z" finished-at="2020-10-13T11:23:17Z">
+      <class name="Demo1.Ecommerce.HomepageTest">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Demo1.Ecommerce.HomepageTest@59a008ba]" name="initialise" is-config="true" duration-ms="14144" started-at="2020-10-13T11:22:09Z" finished-at="2020-10-13T11:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Demo1.Ecommerce.loginpagevalidate@338c99c8]" name="initialise" is-config="true" duration-ms="5282" started-at="2020-10-13T11:22:23Z" finished-at="2020-10-13T11:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="logindemo(java.lang.String, java.lang.String)[pri:0, instance:Demo1.Ecommerce.HomepageTest@59a008ba]" name="logindemo" duration-ms="28520" started-at="2020-10-13T11:22:29Z" data-provider="getData" finished-at="2020-10-13T11:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kasthuri@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[q212e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindemo -->
+        <test-method status="PASS" signature="logindemo(java.lang.String, java.lang.String)[pri:0, instance:Demo1.Ecommerce.HomepageTest@59a008ba]" name="logindemo" duration-ms="5772" started-at="2020-10-13T11:22:58Z" data-provider="getData" finished-at="2020-10-13T11:23:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@phptravels.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demouser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindemo -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Demo1.Ecommerce.HomepageTest@59a008ba]" name="closebrowser" is-config="true" duration-ms="2517" started-at="2020-10-13T11:23:14Z" finished-at="2020-10-13T11:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Demo1.Ecommerce.loginpagevalidate@338c99c8]" name="closebrowser" is-config="true" duration-ms="1298" started-at="2020-10-13T11:23:16Z" finished-at="2020-10-13T11:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Demo1.Ecommerce.HomepageTest -->
+      <class name="Demo1.Ecommerce.loginpagevalidate">
+        <test-method status="FAIL" signature="validatepage()[pri:0, instance:Demo1.Ecommerce.loginpagevalidate@338c99c8]" name="validatepage" duration-ms="8328" started-at="2020-10-13T11:23:03Z" finished-at="2020-10-13T11:23:12Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<SG...> but was:<US...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<SG...> but was:<US...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at Demo1.Ecommerce.loginpagevalidate.validatepage(loginpagevalidate.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatepage -->
+      </class> <!-- Demo1.Ecommerce.loginpagevalidate -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

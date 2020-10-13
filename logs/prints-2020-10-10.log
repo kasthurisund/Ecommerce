@@ -1,0 +1,8 @@
+11:36:42.441 [main] INFO  resources.base - login page is opened
+11:36:44.125 [main] INFO  resources.base - valid credentials are entered
+11:36:49.965 [main] INFO  resources.base - login page is opened
+11:36:50.999 [main] INFO  resources.base - valid credentials are entered
+11:36:58.425 [main] INFO  resources.base - browser is closed
+11:56:51.878 [TestNG-tests-1] INFO  resources.base - browser is instantiated
+11:57:02.129 [TestNG-tests-1] INFO  resources.base - login page is opened
+11:57:03.023 [TestNG-tests-1] INFO  resources.base - valid credentials are entered

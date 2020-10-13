@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.129 s <<< FAILURE! - in TestSuite
+Demo1.Ecommerce.loginpagevalidateTest.validatepage  Time elapsed: 12.493 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<SG...> but was:<US...>
+	at Demo1.Ecommerce.loginpagevalidateTest.validatepage(loginpagevalidateTest.java:31)
+
